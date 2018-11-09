@@ -10,3 +10,8 @@ app.use(express.json());
 app.get("/", function(req, res) {
     res.send("Free Bird!");
 });
+
+app.listen(PORT, function() {
+    console.log("this bird you cannot change");
+    console.log("http://localhost:" + PORT);
+});
