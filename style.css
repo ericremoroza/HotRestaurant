@@ -1,0 +1,27 @@
+body {
+    background-image: url("food.png");
+}
+
+.jumbotron-fluid {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+#headerButtons {
+    justify-content: center;
+}
+
+button {
+    margin: 10px 5px 0px 5px;
+}
+
+.card {
+    margin: 10px auto 10px auto;
+    width: 70%;
+
+}
+
+label {
+    margin: 10px 0px 0px 0px;
+}
