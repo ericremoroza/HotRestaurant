@@ -13,4 +13,5 @@ app.get("/", function(req, res) {
 
 app.listen(PORT, function() {
     console.log("this bird you cannot change");
+    console.log("http://localhost:" + PORT);
 });
